@@ -1,0 +1,22 @@
+h2 {
+    color: black;
+    display: block;
+    font: bold 72px Helvetica;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+
+.usuario {
+    background: aliceblue;
+    border: 1px solid blueviolet;
+    padding: 1em 1em 1em 30%;
+}
+
+.usuario li {
+    list-style: square;
+}
+
+.usuario > div {
+    color: blue;
+}
+
