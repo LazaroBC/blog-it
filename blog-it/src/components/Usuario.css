@@ -1,22 +1,22 @@
-h2 {
+.nombreUsuario *{
     color: black;
     display: block;
     font: bold 72px Helvetica;
     text-transform: uppercase;
     letter-spacing: -1px;
+    font-family: 'Gloria Hallelujah', cursive;
   }
 
 .usuario {
-    background: aliceblue;
-    border: 1px solid blueviolet;
+    font-family: 'Gloria Hallelujah', cursive;
+    background: rgb(171, 172, 172);
     padding: 1em 1em 1em 30%;
+    background-image: linear-gradient(#e7e5e4, rgb(149, 149, 146));
 }
 
 .usuario li {
-    list-style: square;
+    list-style: none;
+    font-size: 2rem;
 }
 
-.usuario > div {
-    color: blue;
-}
 

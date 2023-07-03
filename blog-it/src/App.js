@@ -1,6 +1,9 @@
 import './App.css';
 import Header from './components/Header';
 import Usuario from './components/Usuario';
+import Entradas from './components/Entradas';
+import Footer from './components/Footer';
+
 
 const usuario = {
   usuario: "LLatzy Punky",
@@ -11,12 +14,13 @@ const usuario = {
 
 const App= (props) => {
 
-  const usuairo = props.user;
   
   return (
     <div className="App">
       <Header></Header>
       <Usuario user={usuario}></Usuario>
+      <Entradas></Entradas>
+      <Footer></Footer>
     </div>
   );
 }
