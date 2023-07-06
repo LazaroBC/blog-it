@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Usuario from './components/Usuario';
 import Entradas from './components/Entradas';
 import Footer from './components/Footer';
+import Articulo from './components/Articulo';
 
 
 const usuario = {
@@ -17,10 +18,12 @@ const App= (props) => {
   
   return (
     <div className="App">
+      
       <Header></Header>
       <Usuario user={usuario}></Usuario>
       <Entradas></Entradas>
       <Footer></Footer>
+      <Articulo></Articulo>
     </div>
   );
 }

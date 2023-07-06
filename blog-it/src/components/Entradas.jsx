@@ -8,7 +8,7 @@ const Entradas = () => {
             <h1 className='entradas'>Entradas</h1>
                 <div className='row'>
                     <div className='tarjeta column'>
-                        <div className='titulo'>Titulo de entrada</div>
+                        <div className='titulo'><a href="./Articulo">Titulo de entrada</a></div>
                         <article className='cuerpo'>
                             <img src="https://forbes.es/wp-content/uploads/2022/11/ciberseguridad.jpg" alt="muestra"></img>
                             <p>

@@ -1,0 +1,10 @@
+.centrado {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.centrado-cont {
+    text-align: center;
+    align-items: center;
+}
