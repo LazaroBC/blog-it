@@ -1,5 +1,5 @@
 import React from 'react'
-import './Fecha.css'
+import styles from  './Fecha.module.css'
 
 const Fecha = () => {
     // Aquí javascript el que queramos, también más 
@@ -14,7 +14,7 @@ const Fecha = () => {
     // como una plantilla. Para tener elemenos de javascript
     // hay que 'incrustarlos' con llaves{}
     return (
-        <div className="fecha">
+        <div className={styles.fecha}>
             {fechaDelDia.toLocaleDateString()}
         </div>
     )

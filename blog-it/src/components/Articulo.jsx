@@ -1,5 +1,5 @@
 import React from 'react';
-import './Articulo.css';
+import styles from './Articulo.module.css';
 import Navigator from './Navigator';
 
 
@@ -7,8 +7,8 @@ import Navigator from './Navigator';
 const Articulo = () => {
 
     return (
-        <div className='centrado'>
-            <div className='centrado-cont'>
+        <div className={styles.centrado}>
+            <div className={styles['centrado-cont']}>
                 <Navigator></Navigator>
                 <h1>
                     Articulo

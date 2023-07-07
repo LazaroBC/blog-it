@@ -1,5 +1,5 @@
 import React from 'react';
-import './Usuario.css';
+import styles from './Usuario.module.css';
 
 const Usuario = (props) => {
 
@@ -9,8 +9,8 @@ const Usuario = (props) => {
     // const user = props.user || {};
 
     return (
-        <div className="usuario">
-            <div className="nombreUsuario">
+        <div className={styles.usuario}>
+            <div className={styles.nombreUsuario}>
                 <h2 >{user.usuario}</h2>
                 {/* eslint-disable-next-line*/}
                     <img src="https://cdn-icons-png.flaticon.com/512/1184/1184410.png"></img>

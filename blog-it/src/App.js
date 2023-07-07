@@ -1,4 +1,4 @@
-import './App.css';
+import styles from './App.module.css';
 import Header from './components/Header';
 import Usuario from './components/Usuario';
 import Entradas from './components/Entradas';
@@ -18,12 +18,14 @@ const App= (props) => {
   
   return (
     <div className="App">
-      
       <Header></Header>
       <Usuario user={usuario}></Usuario>
       <Entradas></Entradas>
       <Footer></Footer>
-      <Articulo></Articulo>
+      {/* <Usuario user={usuario}></Usuario>
+      <Entradas></Entradas>
+      <Footer></Footer>
+      <Articulo></Articulo> */}
     </div>
   );
 }

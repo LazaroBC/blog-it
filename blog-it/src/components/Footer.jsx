@@ -1,5 +1,5 @@
 import React from "react";
-import './Footer.css';
+import styles from './Footer.module.css';
 
 const Footer = () => {
 
@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div>
             <footer >
-                <div className="creditos">
+                <div className={styles.creditos}>
                     <ul>
                         <li>
                             <a href="mailto:bellochlazaro.smr@gmail.com">Email</a>
